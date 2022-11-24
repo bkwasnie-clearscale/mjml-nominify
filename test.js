@@ -32,8 +32,7 @@ const xml = `
 console.time('mjml2html')
 
 const { html } = mjml2html(xml, {
-  beautify: true,
-  filePath: './test.mjml',
+  beautify: true
 })
 
 console.timeEnd('mjml2html')

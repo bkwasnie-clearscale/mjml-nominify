@@ -1,4 +1,4 @@
-import { HeadComponent } from 'mjml-core'
+import { HeadComponent } from 'mjml-core-nominify'
 
 export default class MjBreakpoint extends HeadComponent {
   static componentName = 'mj-breakpoint'

@@ -1,9 +1,9 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-core-nominify'
 import crypto from 'crypto'
 
 import conditionalTag, {
   msoConditionalTag,
-} from 'mjml-core/lib/helpers/conditionalTag'
+} from 'mjml-core-nominify/lib/helpers/conditionalTag'
 
 export default class MjNavbar extends BodyComponent {
   static componentName = 'mj-navbar'

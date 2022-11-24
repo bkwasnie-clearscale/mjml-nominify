@@ -1,4 +1,4 @@
-import { HeadComponent } from 'mjml-core'
+import { HeadComponent } from 'mjml-core-nominify'
 
 export default class MjTitle extends HeadComponent {
   static componentName = 'mj-title'

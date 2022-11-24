@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-core-nominify'
 
 export default class MjBody extends BodyComponent {
   static componentName = 'mj-body'

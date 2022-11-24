@@ -1,14 +1,14 @@
 {
-  "name": "mjml-wrapper",
+  "name": "mjml-wrapper-nominify",
   "description": "mjml-wrapper",
-  "version": "4.13.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjmlio/mjml.git",
+    "url": "git+https://github.com/bkwasnie-clearscale/mjml-nominify.git",
     "directory": "packages/mjml-wrapper"
   },
   "license": "MIT",
@@ -23,11 +23,12 @@
   "dependencies": {
     "@babel/runtime": "^7.14.6",
     "lodash": "^4.17.21",
-    "mjml-core": "4.13.0",
-    "mjml-section": "4.13.0"
+    "mjml-core-nominify": "1.0.0",
+    "mjml-section-nominify": "1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
 }

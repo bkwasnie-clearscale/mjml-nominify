@@ -3,14 +3,13 @@ import yargs from 'yargs'
 import { flow, pick, isNil, negate, pickBy } from 'lodash/fp'
 import { isArray, isEmpty, map, get, omit } from 'lodash'
 import { html as htmlBeautify } from 'js-beautify'
-import { minify as htmlMinify } from 'html-minifier'
 
-import mjml2html, { components, initializeType } from 'mjml-core'
-import migrate from 'mjml-migrate'
-import validate, { dependencies } from 'mjml-validator'
-import MJMLParser from 'mjml-parser-xml'
+import mjml2html, { components, initializeType } from 'mjml-core-nominify'
+import migrate from 'mjml-migrate-nominify'
+import validate, { dependencies } from 'mjml-validator-nominify'
+import MJMLParser from 'mjml-parser-xml-nominify'
 
-import { version as coreVersion } from 'mjml-core/package.json'
+import { version as coreVersion } from 'mjml-core-nominify/package.json'
 import readFile, { flatMapPaths } from './commands/readFile'
 import watchFiles from './commands/watchFiles'
 import readStream from './commands/readStream'
@@ -236,7 +235,6 @@ export default async () => {
 
         default: {
           const beautify = config.beautify && config.beautify !== 'false'
-          const minify = config.minify && config.minify !== 'false'
 
           compiled = mjml2html(i.mjml, {
             ...omit(config, ['minify', 'beautify']),
@@ -245,12 +243,6 @@ export default async () => {
           })
           if (beautify) {
             compiled.html = htmlBeautify(compiled.html, beautifyConfig)
-          }
-          if (minify) {
-            compiled.html = htmlMinify(compiled.html, {
-              ...minifyConfig,
-              ...config.minifyOptions,
-            })
           }
         }
       }

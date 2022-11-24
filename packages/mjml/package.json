@@ -1,7 +1,7 @@
 {
-  "name": "mjml",
-  "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "4.13.0",
+  "name": "mjml-nominify",
+  "description": "MJML: the only framework that makes responsive-email easy, fork without minify",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "bin": {
     "mjml": "bin/mjml"
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjmlio/mjml.git",
+    "url": "git+https://github.com/bkwasnie-clearscale/mjml-nominify.git",
     "directory": "packages/mjml"
   },
   "license": "MIT",
@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "mjml-cli": "4.13.0",
-    "mjml-core": "4.13.0",
-    "mjml-migrate": "4.13.0",
-    "mjml-preset-core": "4.13.0",
-    "mjml-validator": "4.13.0"
+    "mjml-cli-nominify": "1.0.0",
+    "mjml-core-nominify": "1.0.0",
+    "mjml-migrate-nominify": "1.0.0",
+    "mjml-preset-core-nominify": "1.0.0",
+    "mjml-validator-nominify": "1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -40,5 +40,6 @@
     "cheerio": "1.0.0-rc.10",
     "lodash": "^4.17.21",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
 }
