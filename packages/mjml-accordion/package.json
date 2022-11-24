@@ -1,7 +1,7 @@
 {
   "name": "mjml-accordion-cs-nominify",
   "description": "mjml-accordion",
-  "version": "4.13.0-1",
+  "version": "4.13.0-2",
   "main": "lib/index.js",
   "files": [
     "lib"
