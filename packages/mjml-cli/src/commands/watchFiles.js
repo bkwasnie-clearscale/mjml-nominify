@@ -6,7 +6,6 @@ import mjml2html from 'mjml-core'
 import { flow, pickBy, flatMap, uniq, difference, remove } from 'lodash/fp'
 import { omit } from 'lodash'
 import { html as htmlBeautify } from 'js-beautify'
-import { minify as htmlMinify } from 'html-minifier'
 
 import readFile from './readFile'
 import makeOutputToFile from './outputToFile'
@@ -53,7 +52,6 @@ export default (input, options) => {
     (args) => {
       const { config, beautifyConfig, minifyConfig } = options
       const beautify = config.beautify && config.beautify !== 'false'
-      const minify = config.minify && config.minify !== 'false'
 
       const compiled = mjml2html(args.content, {
         filePath: args.file,
@@ -62,12 +60,6 @@ export default (input, options) => {
       })
       if (beautify) {
         compiled.html = htmlBeautify(compiled.html, beautifyConfig)
-      }
-      if (minify) {
-        compiled.html = htmlMinify(compiled.html, {
-          ...minifyConfig,
-          ...config.minifyOptions,
-        })
       }
 
       return {
