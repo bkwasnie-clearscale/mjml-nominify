@@ -1,5 +1,5 @@
 {
-  "name": "mjml-master-nominify",
+  "name": "mjml-master-cs-nominify",
   "private": true,
   "scripts": {
     "lerna": "lerna",

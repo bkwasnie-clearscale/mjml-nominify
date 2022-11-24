@@ -1,5 +1,5 @@
 {
-  "name": "mjml-cli-nominify",
+  "name": "mjml-cli-cs-nominify",
   "description": "MJML: the only framework that makes responsive-email easy",
   "version": "4.13.0-1",
   "main": "bin/mjml",
@@ -30,14 +30,15 @@
     "glob": "^7.1.1",
     "js-beautify": "^1.6.14",
     "lodash": "^4.17.21",
-    "mjml-core-nominify": "4.13.0-1",
-    "mjml-migrate-nominify": "4.13.0-1",
-    "mjml-parser-xml-nominify": "4.13.0-1",
-    "mjml-validator-nominify": "4.13.0-1",
+    "mjml-core-cs-nominify": "4.13.0-1",
+    "mjml-migrate-cs-nominify": "4.13.0-1",
+    "mjml-parser-xml-cs-nominify": "4.13.0-1",
+    "mjml-validator-cs-nominify": "4.13.0-1",
     "yargs": "^16.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
 }

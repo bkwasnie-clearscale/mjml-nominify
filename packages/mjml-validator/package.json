@@ -1,5 +1,5 @@
 {
-  "name": "mjml-validator-nominify",
+  "name": "mjml-validator-cs-nominify",
   "description": "mjml-validator",
   "version": "4.13.0-1",
   "main": "lib/index.js",
@@ -26,5 +26,6 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
 }

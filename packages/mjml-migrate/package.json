@@ -1,5 +1,5 @@
 {
-  "name": "mjml-migrate-nominify",
+  "name": "mjml-migrate-cs-nominify",
   "version": "4.13.0-1",
   "description": "A tool to migrate a template from MJML 3 to MJML 4",
   "main": "lib/migrate.js",
@@ -28,8 +28,9 @@
     "@babel/runtime": "^7.14.6",
     "js-beautify": "^1.6.14",
     "lodash": "^4.17.21",
-    "mjml-core-nominify": "4.13.0-1",
-    "mjml-parser-xml-nominify": "4.13.0-1",
+    "mjml-core-cs-nominify": "4.13.0-1",
+    "mjml-parser-xml-cs-nominify": "4.13.0-1",
     "yargs": "^16.1.0"
-  }
+  },
+  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
 }
