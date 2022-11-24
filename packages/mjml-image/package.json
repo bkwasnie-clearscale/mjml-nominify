@@ -1,5 +1,5 @@
 {
-  "name": "mjml-image",
+  "name": "mjml-image-nominify",
   "description": "mjml-image",
   "version": "4.13.0",
   "main": "lib/index.js",
@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/runtime": "^7.14.6",
     "lodash": "^4.17.21",
-    "mjml-core": "4.13.0"
+    "mjml-core-nominify": "4.13.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
