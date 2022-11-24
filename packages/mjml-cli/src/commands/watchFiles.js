@@ -50,7 +50,7 @@ export default (input, options) => {
   const readAndCompile = flow(
     (file) => ({ file, content: readFile(file).mjml }),
     (args) => {
-      const { config, beautifyConfig, minifyConfig } = options
+      const { config, beautifyConfig } = options
       const beautify = config.beautify && config.beautify !== 'false'
 
       const compiled = mjml2html(args.content, {
