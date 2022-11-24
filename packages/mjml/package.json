@@ -1,7 +1,7 @@
 {
   "name": "mjml-nominify",
   "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "4.13.0",
+  "version": "4.13.0-1",
   "main": "lib/index.js",
   "bin": {
     "mjml": "bin/mjml"
@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "mjml-cli-nominify": "4.13.0",
-    "mjml-core-nominify": "4.13.0",
-    "mjml-migrate-nominify": "4.13.0",
-    "mjml-preset-core-nominify": "4.13.0",
-    "mjml-validator-nominify": "4.13.0"
+    "mjml-cli-nominify": "4.13.0-1",
+    "mjml-core-nominify": "4.13.0-1",
+    "mjml-migrate-nominify": "4.13.0-1",
+    "mjml-preset-core-nominify": "4.13.0-1",
+    "mjml-validator-nominify": "4.13.0-1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
