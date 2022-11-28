@@ -1,7 +1,7 @@
 {
   "name": "mjml-parser-xml-nominify",
   "description": "mjml-parser-xml",
-  "version": "1.0.0",
+  "version": "4.13.0-1",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -31,7 +31,7 @@
     "@babel/cli": "^7.8.4",
     "chai": "^4.1.1",
     "mjml": "4.13.0",
-    "mjml-core-nominify": "1.0.0",
+    "mjml-core-nominify": "4.13.0-1",
     "rimraf": "^3.0.2"
   },
   "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
