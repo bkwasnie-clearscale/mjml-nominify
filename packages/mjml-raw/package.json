@@ -1,7 +1,7 @@
 {
   "name": "mjml-raw-cs-nominify",
   "description": "mjml-raw",
-  "version": "4.13.0-2",
+  "version": "4.13.0-4",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/runtime": "^7.14.6",
     "lodash": "^4.17.21",
-    "mjml-core-cs-nominify": "4.13.0-2"
+    "mjml-core-cs-nominify": "4.13.0-4"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
