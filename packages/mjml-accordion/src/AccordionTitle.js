@@ -1,5 +1,5 @@
-import { BodyComponent } from 'mjml-core'
-import conditionalTag from 'mjml-core/lib/helpers/conditionalTag'
+import { BodyComponent } from 'mjml-core-cs-nominify'
+import conditionalTag from 'mjml-core-cs-nominify/lib/helpers/conditionalTag'
 
 export default class MjAccordionTitle extends BodyComponent {
   static componentName = 'mj-accordion-title'

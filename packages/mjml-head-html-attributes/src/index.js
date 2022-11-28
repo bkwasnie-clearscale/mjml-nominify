@@ -1,5 +1,5 @@
 import { get } from 'lodash'
-import { HeadComponent } from 'mjml-core'
+import { HeadComponent } from 'mjml-core-cs-nominify'
 
 export default class MjHtmlAttributes extends HeadComponent {
   static componentName = 'mj-html-attributes'

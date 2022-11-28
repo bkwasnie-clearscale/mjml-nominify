@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs'
-import { registerDependencies } from 'mjml-validator'
+import { registerDependencies } from 'mjml-validator-cs-nominify'
 
 import { registerComponent } from '../components'
 

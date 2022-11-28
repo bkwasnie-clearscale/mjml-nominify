@@ -15,12 +15,12 @@ import juice from 'juice'
 import { html as htmlBeautify } from 'js-beautify'
 import cheerio from 'cheerio'
 
-import MJMLParser from 'mjml-parser-xml'
+import MJMLParser from 'mjml-parser-xml-cs-nominify'
 import MJMLValidator, {
   dependencies as globalDependencies,
   assignDependencies,
-} from 'mjml-validator'
-import { handleMjml3 } from 'mjml-migrate'
+} from 'mjml-validator-cs-nominify'
+import { handleMjml3 } from 'mjml-migrate-cs-nominify'
 
 import { initComponent } from './createComponent'
 import globalComponents, {

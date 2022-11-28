@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-core-cs-nominify'
 import { find } from 'lodash'
-import conditionalTag from 'mjml-core/lib/helpers/conditionalTag'
+import conditionalTag from 'mjml-core-cs-nominify/lib/helpers/conditionalTag'
 import AccordionText from './AccordionText'
 import AccordionTitle from './AccordionTitle'
 

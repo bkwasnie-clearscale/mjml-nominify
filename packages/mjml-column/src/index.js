@@ -1,6 +1,6 @@
-import { BodyComponent } from 'mjml-core'
+import { BodyComponent } from 'mjml-core-cs-nominify'
 
-import widthParser from 'mjml-core/lib/helpers/widthParser'
+import widthParser from 'mjml-core-cs-nominify/lib/helpers/widthParser'
 
 export default class MjColumn extends BodyComponent {
   static componentName = 'mj-column'
