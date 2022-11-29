@@ -1,7 +1,7 @@
 {
   "name": "mjml-snyk",
   "description": "MJML: the only framework that makes responsive-email easy, fork without minify, for snyk",
-  "version": "4.13.0-1",
+  "version": "104.13.1",
   "main": "lib/index.js",
   "bin": {
     "mjml": "bin/mjml"
@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "mjml-cli-snyk": "4.13.0-1",
-    "mjml-core-snyk": "4.13.0-1",
-    "mjml-migrate-snyk": "4.13.0-1",
-    "mjml-preset-core-snyk": "4.13.0-1",
-    "mjml-validator-snyk": "4.13.0-1"
+    "mjml-cli-snyk": "104.13.1",
+    "mjml-core-snyk": "104.13.1",
+    "mjml-migrate-snyk": "104.13.1",
+    "mjml-preset-core-snyk": "104.13.1",
+    "mjml-validator-snyk": "104.13.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
