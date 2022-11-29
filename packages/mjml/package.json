@@ -1,6 +1,6 @@
 {
-  "name": "mjml-nominify",
-  "description": "MJML: the only framework that makes responsive-email easy, fork without minify",
+  "name": "mjml-snyk",
+  "description": "MJML: the only framework that makes responsive-email easy, fork without minify, for snyk",
   "version": "4.13.0-1",
   "main": "lib/index.js",
   "bin": {
@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.6",
-    "mjml-cli-nominify": "4.13.0-1",
-    "mjml-core-nominify": "4.13.0-1",
-    "mjml-migrate-nominify": "4.13.0-1",
-    "mjml-preset-core-nominify": "4.13.0-1",
-    "mjml-validator-nominify": "4.13.0-1"
+    "mjml-cli-snyk": "4.13.0-1",
+    "mjml-core-snyk": "4.13.0-1",
+    "mjml-migrate-snyk": "4.13.0-1",
+    "mjml-preset-core-snyk": "4.13.0-1",
+    "mjml-validator-snyk": "4.13.0-1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -41,5 +41,5 @@
     "lodash": "^4.17.21",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
+  "gitHead": "49f17e3f4d0b492cb385f388ba78c00d36b4193c"
 }

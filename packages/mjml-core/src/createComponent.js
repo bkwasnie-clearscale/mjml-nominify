@@ -11,7 +11,7 @@ import {
   omitBy,
 } from 'lodash'
 
-import MJMLParser from 'mjml-parser-xml-nominify'
+import MJMLParser from 'mjml-parser-xml-snyk'
 
 import shorthandParser, { borderParser } from './helpers/shorthandParser'
 import formatAttributes from './helpers/formatAttributes'

@@ -1,10 +1,12 @@
 {
-  "name": "mjml-master-nominify",
+  "name": "mjml-master-snyk",
   "private": true,
   "scripts": {
+    "test": "lerna run test",
+    "test-int": "node ./test.js",
     "lerna": "lerna",
     "build:watch": "lerna run build --parallel -- -- -w",
-    "build": "lerna run build --parallel --ignore mjml-browser-nominify",
+    "build": "lerna run build --parallel --ignore mjml-browser-snyk",
     "build-browser": "cd packages/mjml-browser && yarn build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core-nominify'
+import { BodyComponent } from 'mjml-core-snyk'
 
 export default class MjSpacer extends BodyComponent {
   static componentName = 'mj-spacer'

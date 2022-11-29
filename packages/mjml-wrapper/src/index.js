@@ -1,5 +1,5 @@
-import MjSection from 'mjml-section-nominify'
-import { suffixCssClasses } from 'mjml-core-nominify'
+import MjSection from 'mjml-section-snyk'
+import { suffixCssClasses } from 'mjml-core-snyk'
 
 export default class MjWrapper extends MjSection {
   static componentName = 'mj-wrapper'

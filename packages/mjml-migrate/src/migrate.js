@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 
 import { keys, find, isNil } from 'lodash'
-import MJMLParser from 'mjml-parser-xml-nominify'
-import { components } from 'mjml-core-nominify'
+import MJMLParser from 'mjml-parser-xml-snyk'
+import { components } from 'mjml-core-snyk'
 import { html as htmlBeautify } from 'js-beautify'
 
 import { unavailableTags, attributesWithUnit } from './config'

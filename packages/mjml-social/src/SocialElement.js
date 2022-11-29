@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core-nominify'
+import { BodyComponent } from 'mjml-core-snyk'
 import { get, each } from 'lodash'
 
 const IMG_BASE_URL = 'https://www.mailjet.com/images/theme/v1/icons/ico-social/'

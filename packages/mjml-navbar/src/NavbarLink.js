@@ -1,6 +1,6 @@
-import { BodyComponent, suffixCssClasses } from 'mjml-core-nominify'
+import { BodyComponent, suffixCssClasses } from 'mjml-core-snyk'
 
-import conditionalTag from 'mjml-core-nominify/lib/helpers/conditionalTag'
+import conditionalTag from 'mjml-core-snyk/lib/helpers/conditionalTag'
 
 export default class MjNavbarLink extends BodyComponent {
   static componentName = 'mj-navbar-link'

@@ -2,7 +2,7 @@
 import chokidar from 'chokidar'
 import glob from 'glob'
 import path from 'path'
-import mjml2html from 'mjml-core-nominify'
+import mjml2html from 'mjml-core-snyk'
 import { flow, pickBy, flatMap, uniq, difference, remove } from 'lodash/fp'
 import { omit } from 'lodash'
 import { html as htmlBeautify } from 'js-beautify'

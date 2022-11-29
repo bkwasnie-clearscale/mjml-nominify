@@ -1,4 +1,4 @@
-import { BodyComponent } from 'mjml-core-nominify'
+import { BodyComponent } from 'mjml-core-snyk'
 
 export default class MjAccordionText extends BodyComponent {
   static componentName = 'mj-accordion-text'

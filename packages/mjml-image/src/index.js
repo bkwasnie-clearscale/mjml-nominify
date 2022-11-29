@@ -1,8 +1,8 @@
 import { min } from 'lodash'
 
-import { BodyComponent } from 'mjml-core-nominify'
+import { BodyComponent } from 'mjml-core-snyk'
 
-import widthParser from 'mjml-core-nominify/lib/helpers/widthParser'
+import widthParser from 'mjml-core-snyk/lib/helpers/widthParser'
 
 export default class MjImage extends BodyComponent {
   static componentName = 'mj-image'

@@ -1,4 +1,4 @@
-import { BodyComponent, suffixCssClasses } from 'mjml-core-nominify'
+import { BodyComponent, suffixCssClasses } from 'mjml-core-snyk'
 
 export default class MjCarouselImage extends BodyComponent {
   static componentName = 'mj-carousel-image'

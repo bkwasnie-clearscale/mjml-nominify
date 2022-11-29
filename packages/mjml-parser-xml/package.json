@@ -1,5 +1,5 @@
 {
-  "name": "mjml-parser-xml-nominify",
+  "name": "mjml-parser-xml-snyk",
   "description": "mjml-parser-xml",
   "version": "4.13.0-1",
   "main": "lib/index.js",
@@ -30,8 +30,8 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "chai": "^4.1.1",
-    "mjml": "4.13.0",
-    "mjml-core-nominify": "4.13.0-1",
+    "mjml-snyk": "4.13.0-1",
+    "mjml-core-snyk": "4.13.0-1",
     "rimraf": "^3.0.2"
   },
   "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"

@@ -1,5 +1,5 @@
 {
-  "name": "mjml-validator-nominify",
+  "name": "mjml-validator-snyk",
   "description": "mjml-validator",
   "version": "4.13.0-1",
   "main": "lib/index.js",
