@@ -1,7 +1,7 @@
 {
   "name": "mjml-wrapper-snyk",
   "description": "mjml-wrapper",
-  "version": "104.13.1",
+  "version": "104.13.2",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -23,8 +23,8 @@
   "dependencies": {
     "@babel/runtime": "^7.14.6",
     "lodash": "^4.17.21",
-    "mjml-core-snyk": "104.13.1",
-    "mjml-section-snyk": "104.13.1"
+    "mjml-core-snyk": "104.13.2",
+    "mjml-section-snyk": "104.13.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

@@ -1,6 +1,6 @@
 {
   "name": "mjml-migrate-snyk",
-  "version": "104.13.1",
+  "version": "104.13.2",
   "description": "A tool to migrate a template from MJML 3 to MJML 4",
   "main": "lib/migrate.js",
   "bin": {
@@ -28,8 +28,8 @@
     "@babel/runtime": "^7.14.6",
     "js-beautify": "1.14.7",
     "lodash": "^4.17.21",
-    "mjml-core-snyk": "104.13.1",
-    "mjml-parser-xml-snyk": "104.13.1",
+    "mjml-core-snyk": "104.13.2",
+    "mjml-parser-xml-snyk": "104.13.2",
     "yargs": "17.6.2"
   },
   "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"

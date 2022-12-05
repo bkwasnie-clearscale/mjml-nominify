@@ -1,7 +1,7 @@
 {
   "name": "mjml-cli-snyk",
   "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "104.13.1",
+  "version": "104.13.2",
   "main": "bin/mjml",
   "bin": {
     "mjml-cli": "bin/mjml"
@@ -30,9 +30,9 @@
     "glob": "^7.1.1",
     "js-beautify": "1.14.7",
     "lodash": "^4.17.21",
-    "mjml-core-snyk": "104.13.1",
-    "mjml-migrate-snyk": "104.13.1",
-    "mjml-parser-xml-snyk": "104.13.1",
+    "mjml-core-snyk": "104.13.2",
+    "mjml-migrate-snyk": "104.13.2",
+    "mjml-parser-xml-snyk": "104.13.2",
     "mjml-validator-snyk": "104.13.1",
     "yargs": "^16.1.0"
   },
