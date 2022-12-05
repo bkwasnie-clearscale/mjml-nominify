@@ -30,5 +30,5 @@
     "@babel/cli": "^7.8.4",
     "rimraf": "^3.0.2"
   },
-  "gitHead": "c4df891ac7d267999cd2c4d06e5cc19b9c9ff809"
+  "gitHead": "05c5a3475144b32ecb7de3d9fdfa03be89be14cb"
 }
