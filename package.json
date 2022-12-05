@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "test-int": "node ./test.js",
+    "int-test": "node ./test.js",
     "lerna": "lerna",
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel --ignore mjml-browser-snyk",
@@ -11,7 +11,11 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "lerna bootstrap",
-    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
+    "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
+    "clean": "lerna run clean",
+    "snyk-code": "snyk code test",
+    "snyk-deps": "snyk test --all-projects",
+    "snyk": "npm run snyk-deps && npm run snyk-code"
   },
   "workspaces": [
     "packages/*"

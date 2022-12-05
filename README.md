@@ -203,3 +203,14 @@ MJML wouldn't be as cool without its amazing community. Head over the [Community
 - [Emmanuel Payet](https://github.com/epayet)
 - [Matthieu](https://github.com/swibge)
 - [Rogier](https://github.com/rogierslag)
+
+# Notes
+npm run clean
+npm install
+npm run build
+npm run test
+npm run int-test
+npm run snyk-deps
+npm run snyk-code
+npm run lerna -- version --yes 104.X.Y
+npm run lerna -- publish from-package --yes
